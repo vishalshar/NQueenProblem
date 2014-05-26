@@ -1,9 +1,3 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-package javaapplication;
-
 /**
  *
  * @author vishal
@@ -77,6 +71,7 @@ public class QueensProblem {
         if (col >= size)
             return true;
 
+        //core logic
         for (int i = 0; i < size; i++) {
             if (checkQueen(i, col, size) && flag == false) {
                 board[i][col].setQueenPlaced();

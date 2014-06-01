@@ -2,6 +2,7 @@
  *
  * @author vishal
  */
+ // class to keep track of location
 class location {
 
     int x;
@@ -35,6 +36,7 @@ class location {
     }
 }
 
+// Main class for the problem
 public class QueensProblem {
 
     public location board[][];
@@ -53,6 +55,7 @@ public class QueensProblem {
 
     }
 
+// Main , Change value of boardSize for different board sizes
     public static void main(String args[]) {
         int boardSize = 8;
         QueensProblem test = new QueensProblem(boardSize);
